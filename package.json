@@ -1,0 +1,70 @@
+{
+  "name": "easy-react-router",
+  "version": "0.0.1",
+  "description": "An Extended react-router-dom with simple usage",
+  "repository": "git@github.com:ri7nz/easy-react-router.git",
+  "author": "ri7nz <ri7nz.labs@gmail.com>",
+  "license": "MIT",
+  "source": "src/index.js",
+  "main": "dist/easy-react-router.js",
+  "module": "dist/easy-react-router.es.js",
+  "umd:main": "dist/easy-react-router.umd.js",
+  "files": [
+    "src",
+    "dist",
+    "easy-react-router",
+    "MainRouter"
+  ],
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": true
+          }
+        }
+      ]
+    ],
+    "plugins": [
+      [
+        "transform-react-jsx"
+      ]
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.1",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "bundlesize": "^0.17.1",
+    "documentation": "^9.1.1",
+    "eslint": "^5.7.0",
+    "eslint-plugin-jest": "^21.26.2",
+    "gzip-size-cli": "^3.0.0",
+    "jest": "^23.6.0",
+    "microbundle": "^0.9.0",
+    "npm-run-all": "^4.1.5",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1",
+    "strip-json-comments-cli": "^1.0.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-router-dom": "*"
+  },
+  "scripts": {
+    "dev": "microbundle watch",
+    "build": "npm-run-all --silent -p build:main -s size docs",
+    "build:main": "microbundle",
+    "size": "strip-json-comments --no-whitespace dist/easy-react-router.js | gzip-size ",
+    "docs": "documentation readme src/*.js -q --section API && yarn fixreadme",
+    "lint": "eslint -c .eslintrc ./src --fix",
+    "prepare": "rm -rf dist && yarn build",
+    "test": "jest --config jest.config.js",
+    "test:watch": "jest --watch",
+    "test:size": "bundlesize",
+    "fixreadme": "node -e 'var fs=require(\"fs\");fs.writeFileSync(\"README.md\", fs.readFileSync(\"README.md\", \"utf8\").replace(/^-   /gm, \"- \"))'"
+  }
+}
