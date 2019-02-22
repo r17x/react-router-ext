@@ -26,6 +26,15 @@ function guid() {
   )
 }
 
+/**
+ * @todo 
+ * @param {...wrapper}
+ * @param {ReactElement} component
+ */
+function applyMiddleware(wrapper){
+  /* @todo */
+}
+
 
 /**
  * @ignore
@@ -41,6 +50,7 @@ function guid() {
  * @return {ReactElement} - See [ReactElement]({@link https://reactjs.org/docs/react-api.html#createelement})
  */
 function WithSubRoutes(props){
+  this.component = props.component
   return  !(props.routes && 
         Array.isArray(props.routes) && 
         props.routes.length > 0) 
@@ -97,7 +107,7 @@ function MainRouter(props) {
       React.Fragment,
       null,
       props.children,
-      props.routes.map(WithSubRoutes)
+      props.routes.map(this.WithSubRoutes)
     )
   )
 }
@@ -111,6 +121,7 @@ function MainRouter(props) {
  * @property {Route[]} routes - {@link Route} 
  */
 
+MainRouter.prototype.WithSubRoutes = WithSubRoutes
 MainRouter.propTypes = {
   children: PropsTypes.oneOfType([
     PropsTypes.element, 
