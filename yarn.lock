@@ -819,7 +819,7 @@
     core-js "^2.5.7"
     regenerator-runtime "^0.12.0"
 
-"@babel/preset-env@^7.1.0", "@babel/preset-env@^7.3.1":
+"@babel/preset-env@7.3.1", "@babel/preset-env@^7.1.0":
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.3.1.tgz#389e8ca6b17ae67aaf9a2111665030be923515db"
   integrity sha512-FHKrD6Dxf30e8xgHQO0zJZpUPfVZg+Xwgz5/RdSWCbza9QLNk4Qbp40ctRoqDxml3O8RMzB1DU55SXeDG6PqHQ==
@@ -1279,7 +1279,7 @@ babel-core@^6.0.0, babel-core@^6.26.0:
     slash "^1.0.0"
     source-map "^0.5.7"
 
-babel-eslint@^10.0.1:
+babel-eslint@10.0.1:
   version "10.0.1"
   resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-10.0.1.tgz#919681dc099614cd7d31d45c8908695092a1faed"
   integrity sha512-z7OT1iNV+TjOwHNLLyJk+HN+YVWX+CLE6fPD2SymJZOZQBs+QIexFjhm4keGTm8MW9xr4EC9Q0PbaLB24V5GoQ==
@@ -1418,7 +1418,7 @@ babel-helpers@^6.24.1:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-jest@^23.6.0:
+babel-jest@23.6.0, babel-jest@^23.6.0:
   version "23.6.0"
   resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-23.6.0.tgz#a644232366557a2240a0c083da6b25786185a2f1"
   integrity sha512-lqKGG6LYXYu+DQh/slrQ8nxXQkEkhugdXsU6St7GmhVS7Ilc/22ArwqXNJrf0QaOBjZB0360qZMwXqDYQHXaew==
@@ -1703,7 +1703,7 @@ babel-plugin-transform-strict-mode@^6.24.1:
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
 
-babel-preset-env@^1.7.0:
+babel-preset-env@1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/babel-preset-env/-/babel-preset-env-1.7.0.tgz#dea79fa4ebeb883cd35dab07e260c1c9c04df77a"
   integrity sha512-9OR2afuKDneX2/q2EurSftUYM0xGu4O2D9adAhVfADDhrYDaxXV0rBbevVYoY9n6nyX1PmQW/0jtpJvUNr9CHg==
@@ -2032,7 +2032,7 @@ builtin-modules@^2.0.0:
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-2.0.0.tgz#60b7ef5ae6546bd7deefa74b08b62a43a232648e"
   integrity sha512-3U5kUA5VPsRUA3nofm/BXX7GVHKfxz0hOBAPxXrIvHzlDRkQVqEn6yi8QJegxl4LzOHLdvb7XF5dVawa/VVYBg==
 
-bundlesize@^0.17.1:
+bundlesize@0.17.1:
   version "0.17.1"
   resolved "https://registry.yarnpkg.com/bundlesize/-/bundlesize-0.17.1.tgz#87018f4aa31e27127481897fc90e30248a4be28b"
   integrity sha512-p5I5Tpoug9aOVGg4kQETMJ8xquY66mX9XI19kXkkAFnmDhDXwSF+1jq1OjBGz7h27TAulM3k2wLEJPvickTt0A==
@@ -3010,7 +3010,7 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-documentation@^9.1.1:
+documentation@9.1.1:
   version "9.1.1"
   resolved "https://registry.yarnpkg.com/documentation/-/documentation-9.1.1.tgz#20da422be82a04a2d356d720d55d4cad25bb235b"
   integrity sha512-oSTBZXBlrJpRMXCzXdd1j8CQ+miJHTIZeEZ3oCU/NgIImKTBG3nHIPPSZRPA35cJGWN9L3uQK7eF6vS82QJlgg==
@@ -3236,7 +3236,7 @@ escodegen@^1.9.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-jest@^21.26.2:
+eslint-plugin-jest@21.27.2:
   version "21.27.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.27.2.tgz#2a795b7c3b5e707df48a953d651042bd01d7b0a8"
   integrity sha512-0E4OIgBJVlAmf1KfYFtZ3gYxgUzC5Eb3Jzmrc9ikI1OY+/cM8Kh72Ti7KfpeHNeD3HJNf9SmEfmvQLIz44Hrhw==
@@ -3267,7 +3267,7 @@ eslint-visitor-keys@^1.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
   integrity sha512-qzm/XxIbxm/FHyH341ZrbnMUpe+5Bocte9xkmFMzPMjRaZMcXww+MpBptFvtU+79L362nqiLhekCxCxDPaUMBQ==
 
-eslint@^5.7.0:
+eslint@5.14.1:
   version "5.14.1"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.14.1.tgz#490a28906be313685c55ccd43a39e8d22efc04ba"
   integrity sha512-CyUMbmsjxedx8B0mr79mNOqetvkbij/zrXnFeK2zc3pGRn3/tibjiNAv/3UxFEyfMDjh+ZqTrJrEGBFiGfD5Og==
@@ -3961,7 +3961,7 @@ growly@^1.3.0:
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
   integrity sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE=
 
-gzip-size-cli@^3.0.0:
+gzip-size-cli@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/gzip-size-cli/-/gzip-size-cli-3.0.0.tgz#b3f7ed1ad4ce70f06b2c80f749848fb5aca273fa"
   integrity sha512-QrOTU2SCtiWPYiWk5hYO0hYfDb/tGn3fb+03fCzDZf3cvAlp4HtIc+tsVjk84XNmdcaOCJOLvVFq8V+QUqyWqw==
@@ -5151,7 +5151,7 @@ jest-worker@^23.2.0:
   dependencies:
     merge-stream "^1.0.1"
 
-jest@^23.6.0:
+jest@23.6.0:
   version "23.6.0"
   resolved "https://registry.yarnpkg.com/jest/-/jest-23.6.0.tgz#ad5835e923ebf6e19e7a1d7529a432edfee7813d"
   integrity sha512-lWzcd+HSiqeuxyhG+EnZds6iO3Y3ZEnMrfZq/OTGvF/C+Z4fPMCdhWTGSAiO2Oym9rbEXfwddHhh6jqrTF3+Lw==
@@ -5699,7 +5699,7 @@ merge@^1.2.0:
   resolved "https://registry.yarnpkg.com/merge/-/merge-1.2.1.tgz#38bebf80c3220a8a487b6fcfb3941bb11720c145"
   integrity sha512-VjFo4P5Whtj4vsLzsYBu5ayHhoHJ0UqNm7ibvShmbmoz7tGi0vXaoJbGdB+GmDMLUdg8DpQXEIeVDAe8MaABvQ==
 
-microbundle@^0.9.0:
+microbundle@0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/microbundle/-/microbundle-0.9.0.tgz#bbec53047ff238c592aba0e5fd8fea3ce7654de3"
   integrity sha512-wceG5fWCig3AKUpYmlzBSGrPgtbO1y5zFxpgLQxQq67crWYYKAvjH6qRFHgIbslrhWckomu9B410fdfECdeXWw==
@@ -6099,7 +6099,7 @@ npm-packlist@^1.1.6:
     ignore-walk "^3.0.1"
     npm-bundled "^1.0.1"
 
-npm-run-all@^4.1.5:
+npm-run-all@4.1.5:
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/npm-run-all/-/npm-run-all-4.1.5.tgz#04476202a15ee0e2e214080861bff12a51d98fba"
   integrity sha512-Oo82gJDAVcaMdi3nuoKFavkIHBRVqQ1qvMb+9LHk/cF4P6B2m8aP04hGf7oL6wZ9BuGwX1onlLhpuoofSyoQDQ==
@@ -7403,7 +7403,7 @@ rc@^1.1.6, rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-dom@^16.7.0:
+react-dom@16.8.2:
   version "16.8.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.2.tgz#7c8a69545dd554d45d66442230ba04a6a0a3c3d3"
   integrity sha512-cPGfgFfwi+VCZjk73buu14pYkYBR1b/SRMSYqkLDdhSEHnSwcuYTPu6/Bh6ZphJFIk80XLvbSe2azfcRzNF+Xg==
@@ -7418,7 +7418,7 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.2.tgz#09891d324cad1cb0c1f2d91f70a71a4bee34df0f"
   integrity sha512-D+NxhSR2HUCjYky1q1DwpNUD44cDpUXzSmmFyC3ug1bClcU/iDNy0YNn1iwme28fn+NFhpA13IndOd42CrFb+Q==
 
-react-router-dom@^4.3.1:
+react-router-dom@4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-4.3.1.tgz#4c2619fc24c4fa87c9fd18f4fb4a43fe63fbd5c6"
   integrity sha512-c/MlywfxDdCp7EnB7YfPMOfMD3tOtIjrQlj/CKfNMBxdmpJP8xcz5P/UAFn3JbnQCNUxsHyVVqllF9LhgVyFCA==
@@ -7443,7 +7443,7 @@ react-router@^4.3.1:
     prop-types "^15.6.1"
     warning "^4.0.1"
 
-react@^16.7.0:
+react@16.8.2:
   version "16.8.2"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.2.tgz#83064596feaa98d9c2857c4deae1848b542c9c0c"
   integrity sha512-aB2ctx9uQ9vo09HVknqv3DGRpI7OIGJhCx3Bt0QqoRluEjHSaObJl+nG12GDdYH6sTgE7YiPJ6ZUyMx9kICdXw==
@@ -8660,7 +8660,7 @@ strip-indent@^2.0.0:
   resolved "https://registry.yarnpkg.com/strip-indent/-/strip-indent-2.0.0.tgz#5ef8db295d01e6ed6cbf7aab96998d7822527b68"
   integrity sha1-XvjbKV0B5u1sv3qrlpmNeCJSe2g=
 
-strip-json-comments-cli@^1.0.1:
+strip-json-comments-cli@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments-cli/-/strip-json-comments-cli-1.0.1.tgz#45d973c24bfb6788bc3e6ae9e6dfcbc0bfaebe21"
   integrity sha1-Rdlzwkv7Z4i8Pmrp5t/LwL+uviE=
