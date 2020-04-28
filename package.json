@@ -35,7 +35,7 @@
   "devDependencies": {
     "@babel/preset-env": "7.5.5",
     "babel-eslint": "10.0.2",
-    "babel-jest": "24.8.0",
+    "babel-jest": "25.5.0",
     "babel-preset-env": "1.7.0",
     "bundlesize": "0.17.2",
     "documentation": "12.0.3",
